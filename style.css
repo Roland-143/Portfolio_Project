@@ -1,0 +1,147 @@
+body {
+    font-family: monospace;
+    margin: 0;
+    border: 0px solid rgb(0, 0, 0); 
+    padding: 0;
+    line-height: 1.2;
+    background-image: radial-gradient(rgb(117, 117, 117), rgb(48, 48, 48), rgb(15, 15, 15));
+    color: #1f1f1f;
+  }
+
+  header 
+  {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: left;
+    padding: 1%;
+  }
+
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    padding: 2rem;
+    background: linear-gradient(to bottom right, #292929, #1a1a1a);
+    color: rgb(209, 209, 209);
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cmo-button {
+    padding: 0.75rem 1.5rem;
+    background: rgb(223, 223, 187);
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .cmo-button:hover {
+    background: rgb(202, 202, 159);
+  }
+
+  section 
+  {
+    padding: 1rem;
+    margin: .5rem;
+    background: white;
+    border-radius: 13px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+  }
+
+  nav 
+  {
+    background-color: #ffffff;
+    border: 1px solid black;
+    padding: 0% 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .nav-list 
+  {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin-left: 2%;
+    padding: 0;
+  }
+
+  .nav-list a,
+  .tab-button 
+  {
+    font-family: inherit;
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    background: rgb(241, 241, 206);
+    border-radius: 8px;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 0.2rem 0.5rem;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .nav-list a:hover,
+  .tab-button:hover 
+  {
+    text-decoration: underline;
+    background: rgb(229, 229, 185);
+  }
+  .tab-section 
+  {
+    display: none;
+    background: rgb(255, 255, 255);
+    margin: 2rem auto;
+    padding: 2rem;
+    width: 90%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+
+  .tab-section.visible 
+  {
+    display: block;
+  }
+
+  main,
+  section 
+  { /* prevents my text from stretching */ 
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+  @media (max-width: 900px) {
+    .hero-content h1 {
+      font-size: 2.5rem;
+    }
+  
+    .nav-list {
+      gap: 0.5rem;
+      font-size: 0.9rem;
+    }
+  }
+
+  footer 
+  {
+    text-align: center;
+    padding: 1px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    border-top: 1px solid black;
+  }
