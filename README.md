@@ -1,5 +1,5 @@
 # Portfolio_Project
-- As of now, this project is a work in progress -- 
+-- As of now, this project is a work in progress -- 
 
 Welcome! This is my personal portfolio website, where I plan to upload and document my progress and ever-evolving ideas/skills as a programmer. This project will allow me to play around with features, while acting as a professional canvas, built from the ground up as I explore web development. I plan to document my growth through the addition of features!
 
